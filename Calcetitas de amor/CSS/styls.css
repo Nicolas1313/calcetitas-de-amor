@@ -1,0 +1,113 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: lato;
+ margin-top: 20px;
+  background-color: rgb(111, 207, 235);
+}
+
+.inicio{
+  margin-top: 10px;
+}
+
+
+.nav_bar ul {
+  list-style: none;
+  padding: 15px;
+  display: flex;
+}
+
+.nav_bar li {
+  margin-right: 210px;
+}
+
+.nav_bar li:last-child {
+  margin-right: 0;
+}
+
+.nav_bar a {
+  display: block;
+  width: 100%;
+  padding: 35px 45px;
+  background-color: #ffffff;
+  color: #333;
+  text-decoration: none;
+  border-radius: 30px;
+  margin-top: -20px;
+}
+
+.nav_bar a:hover {
+  background-color: #FFFD71;
+}
+
+
+.carrusel {
+width: 600px;
+height: 500px;
+margin:50px auto 0;
+overflow: hidden;
+margin-top: -30 px;
+}
+
+.carrusel ul {
+display: flex;
+padding: 0;
+width: 400%;
+
+animation: slide 16s infinite alternate ease-in-out;
+}
+
+.carrusel li {
+width: 100%;
+list-style: none;
+}
+
+.carrusel img {
+width: 100%;
+}
+
+@keyframes slide {
+0% {margin-left: 0;}
+20% {margin-left: 0;}
+
+25% {margin-left: -100%;}
+45% {margin-left: -100%;}
+
+50% {margin-left: -200%;}
+70% {margin-left: -200%;}
+
+75% {margin-left: -300%;}
+100% {margin-left: -300%;}
+}
+
+#botongato{
+  width: 300px; 
+  height: 300px; 
+  display: flex; 
+  margin: 0; 
+  margin-left: 500px;
+}
+
+h3{
+ text-align: center;
+}
+#botonperro{
+  width: 300px; 
+  height: 300px; 
+  display: flex; 
+  margin: 0; 
+  margin-left: 1px;
+}
+
+.contenedor{
+  display: flex;
+  
+}
+
+h3{
+  margin-top: 1PX;
+}
+
+.repon{
+  width: 80%;
+}
